@@ -1,2 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+
+body {
+    background-image: url("images/opillusion.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
