@@ -2,5 +2,7 @@
 /* CSS Document */
 
 body {
-    background-image: url("images/rainbow.gif");
+    background-image: url("images/opillusion.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
 }
