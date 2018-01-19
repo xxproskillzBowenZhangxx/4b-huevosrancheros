@@ -2,7 +2,14 @@
 /* CSS Document */
 
 body {
-    background-image: url("images/opillusion.jpg");
+    background-image: url("images/teletubby.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
+}
+
+.ButtonA {
+	position: fixed;
+	bottom: 0;
+	height: 50px; width:100%; 
+	text-align: center
 }
