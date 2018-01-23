@@ -2,14 +2,50 @@
 /* CSS Document */
 
 body {
+    color: #263AFF;
+}
+
+body {
     background-image: url("images/teletubby.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
 }
 
-.ButtonA {
+.ButtonCheck {
 	position: fixed;
 	bottom: 0;
 	height: 50px; width:100%; 
 	text-align: center
+}
+
+.ButtonA {
+	position: absolute;
+	top: 50%;
+	text-align: center; 
+	left:40.5%; 
+	width: 50px;
+}
+
+.ButtonB {
+	position: absolute;
+	top: 50%; 
+	text-align: center; 
+	left:47.5%; 
+	width: 50px;
+}
+
+.ButtonC {
+	position: absolute;
+	top: 50%; 
+	text-align: center; 
+	left:53.5%; 
+	width: 50px;
+}
+
+.ButtonD {
+	position: absolute;
+	top: 50%; 
+	text-align: center; 
+	left:60.5%; 
+	width: 50px;
 }
