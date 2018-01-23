@@ -11,14 +11,8 @@ body {
     background-size: cover;
 }
 
-.ButtonCheck {
-	position: fixed;
-	bottom: 0;
-	height: 50px; width:100%; 
-	text-align: center
-}
 
-.ButtonA {
+.a {
 	position: absolute;
 	top: 50%;
 	text-align: center; 
@@ -26,7 +20,7 @@ body {
 	width: 50px;
 }
 
-.ButtonB {
+.Buttonb {
 	position: absolute;
 	top: 50%; 
 	text-align: center; 
@@ -34,18 +28,27 @@ body {
 	width: 50px;
 }
 
-.ButtonC {
+.Buttonc { 
 	position: absolute;
 	top: 50%; 
 	text-align: center; 
-	left:53.5%; 
+	left:45.5%; 
+	width: 100000px;
+}
+
+.Buttond {
+	position: absolute;
+	top: 50%; 
+	text-align: center; 
+	left:40.5%; 
 	width: 50px;
 }
 
-.ButtonD {
+.button. A {
+	
 	position: absolute;
 	top: 50%; 
 	text-align: center; 
-	left:60.5%; 
+	left:45.5%; 
 	width: 50px;
 }
