@@ -2,14 +2,53 @@
 /* CSS Document */
 
 body {
+    color: #263AFF;
+}
+
+body {
     background-image: url("images/teletubby.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
 }
 
-.ButtonA {
-	position: fixed;
-	bottom: 0;
-	height: 50px; width:100%; 
-	text-align: center
+
+#d{
+	position: absolute;
+	top: 50%;
+	text-align: center; 
+	left:57.5%; 
+	width: 50px;
+}
+
+#c { 
+	position: absolute;
+	top: 50%; 
+	text-align: center; 
+	left:52.5%; 
+	width: 50px;
+}
+
+#b {
+	position: absolute;
+	top: 50%; 
+	text-align: center; 
+	left:47.5%; 
+	width: 50px;
+}
+
+#a {
+	
+	position: absolute;
+	top: 50%; 
+	text-align: center; 
+	left:42.5%; 
+	width: 50px;
+}
+
+#score {
+	
+	position:absolute; 
+	top: 75%; 
+	text-align:center; 
+	left:45%;
 }
