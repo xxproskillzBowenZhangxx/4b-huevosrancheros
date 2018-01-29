@@ -3,9 +3,6 @@
 
 body {
     color: #263AFF;
-}
-
-body {
     background-image: url("images/teletubby.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
@@ -52,15 +49,57 @@ position: absolute;
 	position:absolute; 
 	top: 75%; 
 	text-align:center; 
-	left:45%;
+	left:42.5%;
 }
 
 #choices {
 position: absolute;
-	top: 90%; 
+	top: 25%; 
 	text-align: center; 
-	left:45%; 
+	left:10%; 
 	width: 200px;
-	height:300px;
-	background-color:rgba(250,0,4,1.00);
+	height:400px;
+}
+
+#difficulty {
+position: absolute;
+	top: 12.5%; 
+	text-align: center; 
+	left:75%; 
+	width: 200px;
+	height:500px;
+}
+
+#Extra {
+	position: absolute;
+	top: 80%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;
+}
+
+#Hard { 
+position: absolute;
+	top: 60%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;
+
+}
+
+#Medium {
+position: absolute;
+	top: 40%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;	
+}
+
+#Easy {
+	
+position: absolute;
+	top: 20%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;	
 }
