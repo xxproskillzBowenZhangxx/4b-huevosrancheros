@@ -1,33 +1,13 @@
 // JavaScript Document
-function achoiceFunction(){
-	if(atext == true)  {
-		alert("Correct");
-		}
-	else{
-		alert("Incorrect");
-	}
-}
-function bchoiceFunction(){
-	if(btext == true)  {
-		alert("Correct");
-		}
-	else{
-		alert("Incorrect");
-	}
-}
-function cchoiceFunction(){
-	if(ctext == true)  {
-		alert("Correct");
-		}
-	else{
-		alert("Incorrect");
-	}
-}
-function dchoiceFunction(){
-	if(dtext == true)  {
-		alert("Correct");
-		}
-	else{
-		alert("Incorrect");
-	}
-}
+
+function DoUTheWae(){
+// img 1
+document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
+// answers
+document.getElementById("a").innerHTML = "Do u know da wae?";
+
+document.getElementById("b").innerHTML = "Tide pods r delicious";
+
+document.getElementById("c").innerHTML = "Condesending Willy Wonka";
+
+document.getElementById("d").innerHTML = "Pepe the Frog";
