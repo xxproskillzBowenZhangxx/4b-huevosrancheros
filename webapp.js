@@ -1,6 +1,6 @@
 // JavaScript Document
 
-function DoUKnowTheWae(){
+
 // img 1
 document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
 // answers
