@@ -10,7 +10,7 @@ function changeMeme(){
 	document.getElementById("d").removeEventListener("click", wrongAnswer);
 	
 	
-	var rand = Math.ceil(Math.random * 50);
+	var rand = Math.ceil(Math.random * 20);
 	switch(rand) {
 		case 1: // do you know da wae
 			document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
@@ -23,7 +23,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Pepe the Frog";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-		case 2:
+		case 2: //Vader + Elf on the Shelf
 			document.body.style.backgroundImage = "url('vader+elfonshelf.jpg')";
 			document.getElementById("a").innerHTML = "vader and the elf on the shelf";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -35,7 +35,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "the evil of christmas";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-		case 3:
+		case 3: //Your Next
 			document.body.style.backgroundImage = "url('images/yourenext.jpg')";
 			document.getElementById("a").innerHTML = "the poker";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -46,7 +46,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Pepe the Frog";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-		case 4:
+		case 4://You Don't Say
 			document.body.style.backgroundImage = "url('images/youdontsay.jpg')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -57,7 +57,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "you don't say";
 			document.getElementById("d").addEventListener("click", rightAnswer);
 			break;
-		case 5:
+		case 5: //Yo Dawg
 			document.body.style.backgroundImage = "url('images/yo_dawg.jpg')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -113,7 +113,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "you don't say";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-		case 10:
+		case 10: //Grumpy Cat
 			document.body.style.backgroundImage = "url('images/grumpy-cat.jpg')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -124,7 +124,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "i am your father";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 11:
+		case 11: //Epic Sax Guy
 			document.body.style.backgroundImage = "url('images/epicsaxguy.jpg')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -135,7 +135,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "stuck in the 80's";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 12:
+		case 12: //Forest Gump
 			document.body.style.backgroundImage = "url('images/ermahgerd.jpg')";
 			document.getElementById("a").innerHTML = "what???";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -146,7 +146,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "forest gump";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 13:
+		case 13: //Expanding Brain
 			document.body.style.backgroundImage = "url('images/expanding_brain.jpg')";
 			document.getElementById("a").innerHTML = "flex seal";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -157,7 +157,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "expanding brain";
 			document.getElementById("d").addEventListener("click", rightAnswer);
 			break;
-			case 14:
+		case 14: //Flex Seal
 			document.body.style.backgroundImage = "url('images/flexseal.png')";
 			document.getElementById("a").innerHTML = "flexseal";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -168,7 +168,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "he protec";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 15:
+		case 15: //Forest Gump
 			document.body.style.backgroundImage = "url('images/forestgump.jpeg')";
 			document.getElementById("a").innerHTML = "fat wise guy";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -179,53 +179,80 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "fry sauinty eyes";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
+		case 16: //Good Guy Greg
+			document.body.style.backgroundImage = "url('images/good_guy_greg.jpg')";
+			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "trump is going to run for president?";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Grumpy Cat";
+			document.getElementById("c").addEventListener("click", rightAnswer);
+			document.getElementById("d").innerHTML = "i am your father";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+		case 17: //Hipster Ariel
+			document.body.style.backgroundImage = "url('images/hipster_ariel.jpg')";
+			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Hipster Ariel";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "joseh decreux";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "stuck in the 80's";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+		case 18: //Joseph D
+			document.body.style.backgroundImage = "url('images/joseph.ducreux.jpg')";
+			document.getElementById("a").innerHTML = "what???";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "christmas hangover";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Joseph D";
+			document.getElementById("c").addEventListener("click", rightAnswer);
+			document.getElementById("d").innerHTML = "forest gump";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+		case 19: //Logan Paul
+			document.body.style.backgroundImage = "url('images/loganpaul.jpg')";
+			document.getElementById("a").innerHTML = "flex seal";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "evolution";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "radioactive";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Logan Paul";
+			document.getElementById("d").addEventListener("click", rightAnswer);
+			break;
+		case 20: //Mocking Spongebob
+			document.body.style.backgroundImage = "url('images/mocking_spongebob.png')";
+			document.getElementById("a").innerHTML = "Mocking Spongebob";
+			document.getElementById("a").addEventListener("click", rightAnswer);
+			document.getElementById("b").innerHTML = "seal the deal";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Grumpy Cat";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "he protec";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+	
 			
 			
 	}
 }
-
-
-
-document.getElementById("c").innerHTML = "Condesending Willy Wonka";
-
-document.getElementById("d").innerHTML = "the evil of christmas";
+function wrongAnswer{
+	 var wrongreply=alert ("false answer");
+	 
+	 
 }
-function DoUKnowTheWae(){
-// img 1
-document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
-// answers
-document.getElementById("a").innerHTML = "Do u know da wae?";
 
-document.getElementById("b").innerHTML = "Tide pods r delicious";
-
-document.getElementById("c").innerHTML = "Condesending Willy Wonka";
-
-document.getElementById("d").innerHTML = "Pepe the Frog";
+function rightAnswer{
+	 var rightreply=alert ("correct answer");
 }
-function DoUKnowTheWae(){
-// img 1
-document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
-// answers
-document.getElementById("a").innerHTML = "Do u know da wae?";
-
-document.getElementById("b").innerHTML = "Tide pods r delicious";
-
-document.getElementById("c").innerHTML = "Condesending Willy Wonka";
+	
 
 
 
-document.getElementById("d").innerHTML = "Pepe the Frog";
-}
-function DoUKnowTheWae(){
-// img 1
-document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
-// answers
-document.getElementById("a").innerHTML = "Do u know da wae?";
 
-document.getElementById("b").innerHTML = "Tide pods r delicious";
 
-document.getElementById("c").innerHTML = "Condesending Willy Wonka";
 
-document.getElementById("d").innerHTML = "Pepe the Frog";
-}
 
