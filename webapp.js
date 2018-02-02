@@ -185,8 +185,7 @@ function changeMeme(){
 }
 
 
-<<<<<<< HEAD
-=======
+
 document.getElementById("c").innerHTML = "Condesending Willy Wonka";
 
 document.getElementById("d").innerHTML = "the evil of christmas";
@@ -229,4 +228,4 @@ document.getElementById("c").innerHTML = "Condesending Willy Wonka";
 
 document.getElementById("d").innerHTML = "Pepe the Frog";
 }
->>>>>>> 0b85b415144fc810d37d8ca688c7327373ca735d
+
