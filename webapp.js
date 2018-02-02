@@ -185,3 +185,48 @@ function changeMeme(){
 }
 
 
+<<<<<<< HEAD
+=======
+document.getElementById("c").innerHTML = "Condesending Willy Wonka";
+
+document.getElementById("d").innerHTML = "the evil of christmas";
+}
+function DoUKnowTheWae(){
+// img 1
+document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
+// answers
+document.getElementById("a").innerHTML = "Do u know da wae?";
+
+document.getElementById("b").innerHTML = "Tide pods r delicious";
+
+document.getElementById("c").innerHTML = "Condesending Willy Wonka";
+
+document.getElementById("d").innerHTML = "Pepe the Frog";
+}
+function DoUKnowTheWae(){
+// img 1
+document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
+// answers
+document.getElementById("a").innerHTML = "Do u know da wae?";
+
+document.getElementById("b").innerHTML = "Tide pods r delicious";
+
+document.getElementById("c").innerHTML = "Condesending Willy Wonka";
+
+
+
+document.getElementById("d").innerHTML = "Pepe the Frog";
+}
+function DoUKnowTheWae(){
+// img 1
+document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
+// answers
+document.getElementById("a").innerHTML = "Do u know da wae?";
+
+document.getElementById("b").innerHTML = "Tide pods r delicious";
+
+document.getElementById("c").innerHTML = "Condesending Willy Wonka";
+
+document.getElementById("d").innerHTML = "Pepe the Frog";
+}
+>>>>>>> 0b85b415144fc810d37d8ca688c7327373ca735d

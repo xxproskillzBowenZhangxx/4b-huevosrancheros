@@ -2,6 +2,7 @@
 /* CSS Document */
 
 body {
+    color:rgba(31,93,249,1.00);
     background-image: url("images/teletubby.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
