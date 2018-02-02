@@ -53,12 +53,12 @@ position: absolute;
 }
 
 #choices {
-position: absolute;
-	top: 25%; 
-	text-align: center; 
-	left:10%; 
+	position: absolute;
+	top: 107px;
+	text-align: center;
+	left: 81px;
 	width: 200px;
-	height:400px;
+	height: 400px;
 }
 
 #difficulty {
