@@ -112,7 +112,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 9: //Evil Kermit
-			document.body.style.backgroundImage = "url('images/evil-kermit.jpg')";
+			document.body.style.backgroundImage = "url('images/evil-kermit.png')";
 			document.getElementById("a").innerHTML = "Evil Kermit";
 			document.getElementById("a").addEventListener("click", rightAnswer);
 			document.getElementById("b").innerHTML = "trump is going to run for president?";
