@@ -262,7 +262,21 @@ function rightAnswer(){
 	 
 	 // load a new meme
 	 changeMeme();
+	 score++;
+	 
+	 
+	 
 }
+
+var score= document.getElementById("score");
+var score= 0;
+var y = 0;
+
+
+
+
+
+
 	
 
 
