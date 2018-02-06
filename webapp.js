@@ -249,7 +249,7 @@ function changeMeme(){
 	} // end switch
 } // end changeMeme()
 function wrongAnswer(){
-	 alert("false answer");
+	 alert("Trash");
 	 // subtract from score
 	 
 	 // load a new meme
@@ -257,7 +257,7 @@ function wrongAnswer(){
 }
 
 function rightAnswer(){
-	 alert ("correct answer");
+	 alert ("Smexy");
 	 // add to score
 	 
 	 // load a new meme
