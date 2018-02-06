@@ -1,4 +1,12 @@
 // JavaScript Document
+
+window.onload = function() {
+	// load cookies
+	
+	// pick a random meme to start
+	changeMeme();
+};
+
 function changeMeme(){
 	document.getElementById("a").removeEventListener("click", rightAnswer);
 	document.getElementById("a").removeEventListener("click", wrongAnswer);
@@ -8,13 +16,13 @@ function changeMeme(){
 	document.getElementById("c").removeEventListener("click", wrongAnswer);
 	document.getElementById("d").removeEventListener("click", rightAnswer);
 	document.getElementById("d").removeEventListener("click", wrongAnswer);
-}
 	
 	
-	var rand = Math.ceil(Math.random * 20);
+	var rand = Math.ceil(Math.random() * 20);
+	//alert("choosing meme #" + rand);
 	switch(rand) {
 		case 1: // do you know da wae
-			document.body.style.backgroundImage = "url('images/douknowtheway.jpg')";
+			document.body.style.backgroundImage = "url('images/do_you_know_the_way.jpg')";
 			document.getElementById("a").innerHTML = "Do u know da wae?";
 			document.getElementById("a").addEventListener("click", rightAnswer);
 			document.getElementById("b").innerHTML = "Tide pods r delicious";
@@ -48,7 +56,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 4://You Don't Say
-			document.body.style.backgroundImage = "url('images/youdontsay.jpg')";
+			document.body.style.backgroundImage = "url('images/youdontsay.png')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
 			document.getElementById("b").innerHTML = "trump is going to run for president?";
@@ -115,7 +123,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 10: //Grumpy Cat
-			document.body.style.backgroundImage = "url('images/grumpy-cat.jpg')";
+			document.body.style.backgroundImage = "url('images/grumpy_cat.jpg')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
 			document.getElementById("b").innerHTML = "trump is going to run for president?";
@@ -129,7 +137,7 @@ function changeMeme(){
 			document.body.style.backgroundImage = "url('images/epicsaxguy.jpg')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
-			document.getElementById("b").innerHTML = "epic sax guy?";
+			document.getElementById("b").innerHTML = "epic sax guy";
 			document.getElementById("b").addEventListener("click", rightAnswer);
 			document.getElementById("c").innerHTML = "joseh decreux";
 			document.getElementById("c").addEventListener("click", wrongAnswer);
@@ -137,7 +145,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 12: //Forest Gump
-			document.body.style.backgroundImage = "url('images/ermahgerd.jpg')";
+			document.body.style.backgroundImage = "url('images/forestgump.jpeg')";
 			document.getElementById("a").innerHTML = "what???";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
 			document.getElementById("b").innerHTML = "christmas hangover";
@@ -169,13 +177,13 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "he protec";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-		case 15: //Forest Gump
-			document.body.style.backgroundImage = "url('images/forestgump.jpeg')";
+		case 15: //Crack Kid
+			document.body.style.backgroundImage = "url('images/crackkid.jpg')";
 			document.getElementById("a").innerHTML = "fat wise guy";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
 			document.getElementById("b").innerHTML = "knowllllllledge";
 			document.getElementById("b").addEventListener("click", wrongAnswer);
-			document.getElementById("c").innerHTML = "Grumpy Cat";
+			document.getElementById("c").innerHTML = "Crack Kid";
 			document.getElementById("c").addEventListener("click", rightAnswer);
 			document.getElementById("d").innerHTML = "fry sauinty eyes";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
@@ -184,7 +192,7 @@ function changeMeme(){
 			document.body.style.backgroundImage = "url('images/good_guy_greg.jpg')";
 			document.getElementById("a").innerHTML = "Condescending Willy Wonka";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
-			document.getElementById("b").innerHTML = "trump is going to run for president?";
+			document.getElementById("b").innerHTML = "Good Guy Greg";
 			document.getElementById("b").addEventListener("click", wrongAnswer);
 			document.getElementById("c").innerHTML = "Grumpy Cat";
 			document.getElementById("c").addEventListener("click", rightAnswer);
@@ -203,7 +211,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 18: //Joseph D
-			document.body.style.backgroundImage = "url('images/joseph.ducreux.jpg')";
+			document.body.style.backgroundImage = "url('images/joseph_ducreux.png')";
 			document.getElementById("a").innerHTML = "what???";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
 			document.getElementById("b").innerHTML = "christmas hangover";
@@ -225,7 +233,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", rightAnswer);
 			break;
 		case 20: //Mocking Spongebob
-			document.body.style.backgroundImage = "url('images/mocking_spongebob.png')";
+			document.body.style.backgroundImage = "url('images/mocking_spongebob.jpg')";
 			document.getElementById("a").innerHTML = "Mocking Spongebob";
 			document.getElementById("a").addEventListener("click", rightAnswer);
 			document.getElementById("b").innerHTML = "seal the deal";
@@ -238,15 +246,22 @@ function changeMeme(){
 	
 			
 			
-	}
+	} // end switch
+} // end changeMeme()
 function wrongAnswer(){
-	 var wrongreply=alert ("false answer");
+	 alert("false answer");
+	 // subtract from score
 	 
-	 
+	 // load a new meme
+	 changeMeme();
 }
 
 function rightAnswer(){
-	 var rightreply=alert ("correct answer");
+	 alert ("correct answer");
+	 // add to score
+	 
+	 // load a new meme
+	 changeMeme();
 }
 	
 
