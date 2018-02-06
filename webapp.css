@@ -117,3 +117,13 @@ position: absolute;
 	width: 200px;	
 	color: #BA00C9;
 }
+
+#questionsanswered {
+	
+	position: absolute;
+	top: 5%;
+	text-align: center; 
+	right: 0%; 
+	width: 200px;	
+	color: #BA00C9;
+}
