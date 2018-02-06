@@ -8,6 +8,7 @@ function changeMeme(){
 	document.getElementById("c").removeEventListener("click", wrongAnswer);
 	document.getElementById("d").removeEventListener("click", rightAnswer);
 	document.getElementById("d").removeEventListener("click", wrongAnswer);
+}
 	
 	
 	var rand = Math.ceil(Math.random * 20);
@@ -238,14 +239,13 @@ function changeMeme(){
 			
 			
 	}
-}
-function wrongAnswer{
+function wrongAnswer(){
 	 var wrongreply=alert ("false answer");
 	 
 	 
 }
 
-function rightAnswer{
+function rightAnswer(){
 	 var rightreply=alert ("correct answer");
 }
 	
