@@ -112,7 +112,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 9: //Evil Kermit
-			document.body.style.backgroundImage = "url('images/evil-kermit.jpg')";
+			document.body.style.backgroundImage = "url('images/evil-kermit.png')";
 			document.getElementById("a").innerHTML = "Evil Kermit";
 			document.getElementById("a").addEventListener("click", rightAnswer);
 			document.getElementById("b").innerHTML = "trump is going to run for president?";
@@ -168,7 +168,7 @@ function changeMeme(){
 			break;
 		case 14: //Phil Swift
 			document.body.style.backgroundImage = "url('images/philswift.jpg')";
-			document.getElementById("a").innerHTML = "philswift";
+			document.getElementById("a").innerHTML = "phil swift";
 			document.getElementById("a").addEventListener("click", rightAnswer);
 			document.getElementById("b").innerHTML = "seal the deal";
 			document.getElementById("b").addEventListener("click", wrongAnswer);
@@ -249,7 +249,7 @@ function changeMeme(){
 	} // end switch
 } // end changeMeme()
 function wrongAnswer(){
-	 alert("false answer");
+	 alert("Trash");
 	 // subtract from score
 	 
 	 // load a new meme
@@ -257,7 +257,7 @@ function wrongAnswer(){
 }
 
 function rightAnswer(){
-	 alert ("correct answer");
+	 alert ("Smexy");
 	 // add to score
 	 
 	 // load a new meme
