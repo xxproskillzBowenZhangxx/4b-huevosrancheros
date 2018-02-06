@@ -47,7 +47,7 @@ position: absolute;
 	color: #BA00C9;
 }
 
-#score {
+#highscore {
 	position:absolute; 
 	top: 75%; 
 	text-align:center; 
@@ -57,26 +57,22 @@ position: absolute;
 
 #choices {
 	position: absolute;
-	top: 107px;
+	top: 30%;
 	text-align: center;
-	left: 81px;
+	left: 10%;
 	width: 200px;
-
 	height: 400px;
-
-	height:400px;
 	color: #BA00C9;
 	background-color: #0046DC;
-
 }
 
 #difficulty {
 position: absolute;
-	top: 12.5%; 
+	top: 30%; 
 	text-align: center; 
-	left:75%; 
+	right:10%; 
 	width: 200px;
-	height:500px;
+	height:400px;
 	color: #BA00C9;
 	background-color: #0046DC;
 }
@@ -114,6 +110,16 @@ position: absolute;
 	top: 20%;
 	text-align: center; 
 	left: 0%; 
+	width: 200px;	
+	color: #BA00C9;
+}
+
+#questionsanswered {
+	
+	position: absolute;
+	top: 5%;
+	text-align: center; 
+	right: 0%; 
 	width: 200px;	
 	color: #BA00C9;
 }
