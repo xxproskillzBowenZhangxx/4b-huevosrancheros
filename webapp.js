@@ -259,7 +259,7 @@ function changeMeme(){
 	} // end switch
 } // end changeMeme()
 function wrongAnswer(){
-	 alert("Trash");
+	 alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
 	 // subtract from score
 	 
 	 // load a new meme
@@ -267,12 +267,26 @@ function wrongAnswer(){
 }
 
 function rightAnswer(){
-	 alert ("Smexy");
+	 alert ("Aye, that's pretty smexy. Your name is now the meme king");
 	 // add to score
 	 
 	 // load a new meme
 	 changeMeme();
+	 score++;
+	 
+	 
+	 
 }
+
+var score= document.getElementById("score");
+var score= 0;
+var y = 0;
+
+
+
+
+
+
 	
 
 

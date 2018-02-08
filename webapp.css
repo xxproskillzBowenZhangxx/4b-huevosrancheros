@@ -59,22 +59,22 @@ position: absolute;
 	position: absolute;
 	top: 30%;
 	text-align: center;
-	left: 10%;
+	left: 5%;
 	width: 200px;
 	height: 400px;
 	color: #BA00C9;
-	background-color: #0046DC;
+	
 }
 
 #difficulty {
 position: absolute;
 	top: 30%; 
 	text-align: center; 
-	right:10%; 
+	right:5%; 
 	width: 200px;
 	height:400px;
 	color: #BA00C9;
-	background-color: #0046DC;
+	
 }
 
 #Extra {
