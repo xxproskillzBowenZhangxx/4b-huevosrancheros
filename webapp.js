@@ -18,10 +18,10 @@ function changeMeme(){
 	document.getElementById("d").removeEventListener("click", wrongAnswer);
 	
 	
-	var rand = Math.ceil(Math.random() * 20);
+	var rand = Math.ceil(Math.random() * 21);
 	//alert("choosing meme #" + rand);
 	switch(rand) {
-		case 1: // do you know da wae
+		case 1: //do you know da wae
 			document.body.style.backgroundImage = "url('images/do_you_know_da_wae.jpg')";
 			document.getElementById("a").innerHTML = "Do u know da wae?";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -243,7 +243,17 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "he protec";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-	
+			case 21: //Asian Grading Scale
+			document.body.style.backgroundImage = "url('images/asiangradingscale.jpg')";
+			document.getElementById("a").innerHTML = "hola";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Jackie Chan";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Bad Grades";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Asian Grading Scale";
+			document.getElementById("d").addEventListener("click", rightAnswer);
+			break;
 			
 			
 	} // end switch
