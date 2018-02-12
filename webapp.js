@@ -19,10 +19,10 @@ function changeMeme(){
 	document.getElementById("d").removeEventListener("click", wrongAnswer);
 	
 	
-	var rand = Math.ceil(Math.random() * 20);
+	var rand = Math.ceil(Math.random() * 21);
 	//alert("choosing meme #" + rand);
 	switch(rand) {
-		case 1: // do you know da wae
+		case 1: //do you know da wae
 			document.body.style.backgroundImage = "url('images/do_you_know_da_wae.jpg')";
 			document.getElementById("a").innerHTML = "Do u know da wae?";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -244,9 +244,61 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "he protec";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-	
-			
-			
+			case 21: //Asian Grading Scale
+			document.body.style.backgroundImage = "url('images/asiangradingscale.jpg')";
+			document.getElementById("a").innerHTML = "hola";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Jackie Chan";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Bad Grades";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Asian Grading Scale";
+			document.getElementById("d").addEventListener("click", rightAnswer);
+			break;
+			case 22: //Be Like Bill
+			document.body.style.backgroundImage = "url('images/be_like_bill.png')";
+			document.getElementById("a").innerHTML = "Billy";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Trolled";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Be like Bill";
+			document.getElementById("c").addEventListener("click", rightAnswer);
+			document.getElementById("d").innerHTML = "CoolManDood";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 23: //Dolan
+			document.body.style.backgroundImage = "url('images/dolan.png')";
+			document.getElementById("a").innerHTML = "beaky";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "mr. clucks";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "donald duck";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Dolan";
+			document.getElementById("d").addEventListener("click", rightAnswer);
+			break;
+			case 24: //
+			document.body.style.backgroundImage = "url('images/ken_bone.jpg')";
+			document.getElementById("a").innerHTML = "ken bone";
+			document.getElementById("a").addEventListener("click", rightAnswer);
+			document.getElementById("b").innerHTML = "fat guy in a little coat";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "awkward interview";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "bad luck brian";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 25: //
+			document.body.style.backgroundImage = "url('images/pepe_the_frog.jpg')";
+			document.getElementById("a").innerHTML = "kermit";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "pepe the frog";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "greenman";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "creepy stalker";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
 	} // end switch
 } // end changeMeme()
 
