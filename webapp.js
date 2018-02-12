@@ -1,5 +1,6 @@
 // JavaScript Document
 
+
 window.onload = function() {
 	// load cookies
 	
@@ -300,6 +301,8 @@ function changeMeme(){
 			break;
 	} // end switch
 } // end changeMeme()
+
+
 function wrongAnswer(){
 	 alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
 	 // subtract from score
@@ -309,20 +312,15 @@ function wrongAnswer(){
 }
 
 function rightAnswer(){
-	 alert ("Aye, that's pretty smexy. Your name is now the meme king");
-	 // add to score
-	 
-	 // load a new meme
-	 changeMeme();
-	 score++;
-	 
-	 
-	 
+	alert ("Aye, that's pretty smexy. Your name is now the meme king");
+	changeMeme(); 
+	score+= 1;
+	document.getElementById("score").value=score;
+	
+	
 }
 
-var score= document.getElementById("score");
-var score= 0;
-var y = 0;
+
 
 
 
