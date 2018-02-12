@@ -19,7 +19,7 @@ function changeMeme(){
 	document.getElementById("d").removeEventListener("click", wrongAnswer);
 	
 	
-	var rand = Math.ceil(Math.random() * 21);
+	var rand = Math.ceil(Math.random() * 30);
 	//alert("choosing meme #" + rand);
 	switch(rand) {
 		case 1: //do you know da wae
@@ -277,7 +277,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Dolan";
 			document.getElementById("d").addEventListener("click", rightAnswer);
 			break;
-			case 24: //
+			case 24: //Ken Bone
 			document.body.style.backgroundImage = "url('images/ken_bone.jpg')";
 			document.getElementById("a").innerHTML = "ken bone";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -288,7 +288,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "bad luck brian";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 25: //
+			case 25: //Pepe the Frog
 			document.body.style.backgroundImage = "url('images/pepe_the_frog.jpg')";
 			document.getElementById("a").innerHTML = "kermit";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -297,6 +297,61 @@ function changeMeme(){
 			document.getElementById("c").innerHTML = "greenman";
 			document.getElementById("c").addEventListener("click", wrongAnswer);
 			document.getElementById("d").innerHTML = "creepy stalker";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 26: //Me Gusta
+			document.body.style.backgroundImage = "url('images/megusta.jpg')";
+			document.getElementById("a").innerHTML = "Potato Head";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Baldy";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Bald Head Bill";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Me Gusta";
+			document.getElementById("d").addEventListener("click", rightAnswer);
+			break;
+			case 27: //Bern it Bernie
+			document.body.style.backgroundImage = "url('images/berniesanders.jpg')";
+			document.getElementById("a").innerHTML = "Bern it Bernie";
+			document.getElementById("a").addEventListener("click", rightAnswer);
+			document.getElementById("b").innerHTML = "Barnie Sanders";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "feel the bern";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Me Gusta";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 28: //Billy Mays
+			document.body.style.backgroundImage = "url('images/billy_mays.jpg')";
+			document.getElementById("a").innerHTML = "#videogames";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Billy Mays";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "baking soda";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Jimmy Vranic";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 29: //Philosoraptor
+			document.body.style.backgroundImage = "url('images/philosoraptor.jpg')";
+			document.getElementById("a").innerHTML = "philosoraptor";
+			document.getElementById("a").addEventListener("click", rightAnswer);
+			document.getElementById("b").innerHTML = "trex";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "jurrasic park";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "training raptors";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 30: //Prison Mike
+			document.body.style.backgroundImage = "url('images/prisonmike.png')";
+			document.getElementById("a").innerHTML = "In the clink";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Prison Mike";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "the office";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "meetings with michael";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 	} // end switch
