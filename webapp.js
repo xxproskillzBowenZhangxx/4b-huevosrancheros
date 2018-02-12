@@ -312,11 +312,12 @@ function wrongAnswer(){
 }
 
 function rightAnswer(){
-	alert ("Aye, that's pretty smexy. Your name is now the meme king");
 	changeMeme(); 
-	score+= 1;
+	alert ("Aye, that's pretty smexy. Your name is now the meme king");
+	var score=0;
 	document.getElementById("score").value=score;
-	
+	score++;
+	alert (typeof(score));
 	
 }
 
