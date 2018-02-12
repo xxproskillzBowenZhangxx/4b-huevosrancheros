@@ -2,49 +2,43 @@
 /* CSS Document */
 
 body {
-    color:rgba(31,93,249,1.00);
-    background-image: url("images/teletubby.jpg");
+    color: #001EFF;
 	background-repeat: no-repeat;
     background-size: cover;
 	background-color: rgba(0,0,0,1.00);
-	color: #BA00C9;
 }
 
  
 #d{
 	position: absolute;
-	top: 75%;
+	top: 80%;
 	text-align: center; 
 	left:0%; 
 	width: 200px;
-	color: #BA00C9;
 }
 
 #c { 
 position: absolute;
-	top: 50%;
+	top: 60%;
 	text-align: center; 
 	left:0%; 
 	width: 200px;
-	color: #BA00C9;
 }
 
 #b {
 position: absolute;
-	top: 25%;
+	top: 40%;
 	text-align: center; 
 	left:0%; 
 	width: 200px;	
-	color: #BA00C9;
 }
 
 #a {
 position: absolute;
-	top: 0%;
+	top: 20%;
 	text-align: center; 
 	left:0%; 
 	width: 200px;	
-	color: #BA00C9;
 }
 
 #highscore {
@@ -52,7 +46,8 @@ position: absolute;
 	top: 75%; 
 	text-align:center; 
 	left:42.5%;
-	color: #BA00C9;
+	background-color: #3E337F;
+	color: #7D66FF;
 }
 
 #choices {
@@ -62,18 +57,19 @@ position: absolute;
 	left: 5%;
 	width: 200px;
 	height: 400px;
-	color: #BA00C9;
+	background-color: #3E337F;
+	color: #7D66FF;
 	
 }
 
 #difficulty {
-position: absolute;
+	position: absolute;
 	top: 30%; 
 	text-align: center; 
 	right:5%; 
 	width: 200px;
 	height:400px;
-	color: #BA00C9;
+	background-color: #1F2899
 	
 }
 
@@ -83,25 +79,22 @@ position: absolute;
 	text-align: center; 
 	left: 0%; 
 	width: 200px;
-	color: #BA00C9;
 }
 
 #Hard { 
-position: absolute;
+	position: absolute;
 	top: 60%;
 	text-align: center; 
 	left: 0%; 
 	width: 200px;
-	color: #BA00C9;
 }
 
 #Medium {
-position: absolute;
+	position: absolute;
 	top: 40%;
 	text-align: center; 
 	left: 0%; 
 	width: 200px;	
-	color: #BA00C9;
 }
 
 #Easy {
@@ -111,7 +104,6 @@ position: absolute;
 	text-align: center; 
 	left: 0%; 
 	width: 200px;	
-	color: #BA00C9;
 }
 
 #score {
@@ -121,6 +113,5 @@ position: absolute;
 	font-size:36px;
 	right: 5%; 
 	width: 200px;	
-	color: #BA00C9;
-	background-color:#85E800;
+	background-color: #1F2899
 }
