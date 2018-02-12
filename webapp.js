@@ -1,5 +1,6 @@
 // JavaScript Document
 
+
 window.onload = function() {
 	// load cookies
 	
@@ -254,10 +255,54 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Asian Grading Scale";
 			document.getElementById("d").addEventListener("click", rightAnswer);
 			break;
-			
-			
+			case 22: //Be Like Bill
+			document.body.style.backgroundImage = "url('images/be_like_bill.png')";
+			document.getElementById("a").innerHTML = "Billy";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Trolled";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Be like Bill";
+			document.getElementById("c").addEventListener("click", rightAnswer);
+			document.getElementById("d").innerHTML = "CoolManDood";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 23: //Dolan
+			document.body.style.backgroundImage = "url('images/dolan.png')";
+			document.getElementById("a").innerHTML = "beaky";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "mr. clucks";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "donald duck";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Dolan";
+			document.getElementById("d").addEventListener("click", rightAnswer);
+			break;
+			case 24: //
+			document.body.style.backgroundImage = "url('images/ken_bone.jpg')";
+			document.getElementById("a").innerHTML = "ken bone";
+			document.getElementById("a").addEventListener("click", rightAnswer);
+			document.getElementById("b").innerHTML = "fat guy in a little coat";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "awkward interview";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "bad luck brian";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+			case 25: //
+			document.body.style.backgroundImage = "url('images/pepe_the_frog.jpg')";
+			document.getElementById("a").innerHTML = "kermit";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "pepe the frog";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "greenman";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "creepy stalker";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
 	} // end switch
 } // end changeMeme()
+
+
 function wrongAnswer(){
 	 alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
 	 // subtract from score
@@ -267,20 +312,15 @@ function wrongAnswer(){
 }
 
 function rightAnswer(){
-	 alert ("Aye, that's pretty smexy. Your name is now the meme king");
-	 // add to score
-	 
-	 // load a new meme
-	 changeMeme();
-	 score++;
-	 
-	 
-	 
+	alert ("Aye, that's pretty smexy. Your name is now the meme king");
+	changeMeme(); 
+	score+= 1;
+	document.getElementById("score").value=score;
+	
+	
 }
 
-var score= document.getElementById("score");
-var score= 0;
-var y = 0;
+
 
 
 

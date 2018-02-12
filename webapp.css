@@ -114,12 +114,13 @@ position: absolute;
 	color: #BA00C9;
 }
 
-#questionsanswered {
-	
+#score {
 	position: absolute;
 	top: 5%;
-	text-align: center; 
-	right: 0%; 
+	text-align: center;
+	font-size:36px;
+	right: 5%; 
 	width: 200px;	
 	color: #BA00C9;
+	background-color:#85E800;
 }
