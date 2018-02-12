@@ -300,7 +300,7 @@ function changeMeme(){
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 			case 26: //Me Gusta
-			document.body.style.backgroundImage = "url('images/megusta.jpg')";
+			document.body.style.backgroundImage = "url('images/me_gusta.jpg')";
 			document.getElementById("a").innerHTML = "Potato Head";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
 			document.getElementById("b").innerHTML = "Baldy";
