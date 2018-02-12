@@ -1,5 +1,7 @@
 // JavaScript Document
 
+var score = 0;
+
 
 window.onload = function() {
 	// load cookies
@@ -369,10 +371,9 @@ function wrongAnswer(){
 function rightAnswer(){
 	changeMeme(); 
 	alert ("Aye, that's pretty smexy. Your name is now the meme king");
-	var score=0;
-	document.getElementById("score").value=score;
 	score++;
-	alert (typeof(score));
+	document.getElementById("score").value=score;
+	//alert (typeof(score));
 	
 }
 
