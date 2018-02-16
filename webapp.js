@@ -24,9 +24,9 @@ function changeMeme(){
 	var rand = Math.ceil(Math.random() * 30);
 	//alert("choosing meme #" + rand);
 	switch(rand) {
-		case 1: //do you know da wae
+		case 1: //Ugandan Knuckles
 			document.body.style.backgroundImage = "url('images/do_you_know_da_wae.jpg')";
-			document.getElementById("a").innerHTML = "Do u know da wae?";
+			document.getElementById("a").innerHTML = "Ugandan Knuckles";
 			document.getElementById("a").addEventListener("click", rightAnswer);
 			document.getElementById("b").innerHTML = "Tide pods r delicious";
 			document.getElementById("b").addEventListener("click", wrongAnswer);
@@ -188,7 +188,7 @@ function changeMeme(){
 			document.getElementById("b").addEventListener("click", wrongAnswer);
 			document.getElementById("c").innerHTML = "Crack Kid";
 			document.getElementById("c").addEventListener("click", rightAnswer);
-			document.getElementById("d").innerHTML = "fry sauinty eyes";
+			document.getElementById("d").innerHTML = "fry squinty eyes";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 16: //Good Guy Greg
