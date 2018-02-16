@@ -361,9 +361,10 @@ function changeMeme(){
 
 
 function wrongAnswer(){
-	 alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
-	 score-=2;
-	 changeMeme();	 
+	score=0;
+	document.getElementById("score").value=score;	
+	alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
+	changeMeme();	 
 }
 
 function rightAnswer(){
