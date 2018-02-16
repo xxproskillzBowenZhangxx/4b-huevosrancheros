@@ -362,19 +362,15 @@ function changeMeme(){
 
 function wrongAnswer(){
 	 alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
-	 // subtract from score
-	 
-	 // load a new meme
-	 changeMeme();
+	 score-=2;
+	 changeMeme();	 
 }
 
 function rightAnswer(){
 	changeMeme(); 
 	alert ("Aye, that's pretty smexy. Your name is now the meme king");
 	score++;
-	document.getElementById("score").value=score;
-	//alert (typeof(score));
-	
+	document.getElementById("score").value=score;	
 }
 
 
