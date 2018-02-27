@@ -42,12 +42,13 @@ position: absolute;
 }
 
 #highscore {
-	position:absolute; 
-	top: 75%; 
-	text-align:center; 
-	left:42.5%;
-	background-color: #3E337F;
-	color: #7D66FF;
+	position: absolute;
+	top: 75%;
+	text-align: center;
+	left: 669px;
+	background-color: #007ADA;
+	border: solid;
+	border-radius: 30px;	
 }
 
 #choices {
@@ -57,9 +58,9 @@ position: absolute;
 	left: 5%;
 	width: 200px;
 	height: 400px;
-	background-color: #3E337F;
-	color: #7D66FF;
-	
+	background-color: #1F2899;
+	border: double;
+	border-radius: 17px;
 }
 
 #difficulty {
@@ -69,9 +70,12 @@ position: absolute;
 	right:5%; 
 	width: 200px;
 	height:400px;
-	background-color: #1F2899
+	background-color: #1F2899;
+	border: double;
+	border-radius: 17px;
 	
 }
+
 
 #Extra {
 	position: absolute;
@@ -113,5 +117,16 @@ position: absolute;
 	font-size:36px;
 	right: 5%; 
 	width: 200px;	
-	background-color: #1F2899
+	height:100px;
+	background-color: #1F2899;
+	border: #005CBE, thick;
+	border-radius: 40px;
 }
+
+#scoretilebox {
+	position:absolute;
+	right: 5%;
+	top: 0%;
+}
+
+

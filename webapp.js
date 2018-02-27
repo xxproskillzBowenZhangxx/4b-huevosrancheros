@@ -1,5 +1,7 @@
 // JavaScript Document
 
+var score = 0;
+
 
 window.onload = function() {
 	// load cookies
@@ -9,9 +11,9 @@ window.onload = function() {
 };
 
 function changeMeme(){
-	document.getElementById("a").removeEventListener("click", 						rightAnswer);
+	document.getElementById("a").removeEventListener("click", rightAnswer);
 	document.getElementById("a").removeEventListener("click", wrongAnswer);
-	document.getElementById("b").removeEventListener("click", 	rightAnswer);
+	document.getElementById("b").removeEventListener("click", rightAnswer);
 	document.getElementById("b").removeEventListener("click", wrongAnswer);
 	document.getElementById("c").removeEventListener("click", rightAnswer);
 	document.getElementById("c").removeEventListener("click", wrongAnswer);
@@ -22,9 +24,9 @@ function changeMeme(){
 	var rand = Math.ceil(Math.random() * 30);
 	//alert("choosing meme #" + rand);
 	switch(rand) {
-		case 1: //do you know da wae
+		case 1: //Ugandan Knuckles
 			document.body.style.backgroundImage = "url('images/do_you_know_da_wae.jpg')";
-			document.getElementById("a").innerHTML = "Do u know da wae?";
+			document.getElementById("a").innerHTML = "Ugandan Knuckles";
 			document.getElementById("a").addEventListener("click", rightAnswer);
 			document.getElementById("b").innerHTML = "Tide pods r delicious";
 			document.getElementById("b").addEventListener("click", wrongAnswer);
@@ -186,7 +188,7 @@ function changeMeme(){
 			document.getElementById("b").addEventListener("click", wrongAnswer);
 			document.getElementById("c").innerHTML = "Crack Kid";
 			document.getElementById("c").addEventListener("click", rightAnswer);
-			document.getElementById("d").innerHTML = "fry sauinty eyes";
+			document.getElementById("d").innerHTML = "fry squinty eyes";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 		case 16: //Good Guy Greg
@@ -222,18 +224,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "forest gump";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-		case 19: //Logan Paul
-			document.body.style.backgroundImage = "url('images/loganpaul.jpg')";
-			document.getElementById("a").innerHTML = "flex seal";
-			document.getElementById("a").addEventListener("click", wrongAnswer);
-			document.getElementById("b").innerHTML = "evolution";
-			document.getElementById("b").addEventListener("click", wrongAnswer);
-			document.getElementById("c").innerHTML = "radioactive";
-			document.getElementById("c").addEventListener("click", wrongAnswer);
-			document.getElementById("d").innerHTML = "Logan Paul";
-			document.getElementById("d").addEventListener("click", rightAnswer);
-			break;
-		case 20: //Mocking Spongebob
+		case 19: //Mocking Spongebob
 			document.body.style.backgroundImage = "url('images/mocking_spongebob.jpg')";
 			document.getElementById("a").innerHTML = "Mocking Spongebob";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -244,18 +235,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "he protec";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 21: //Asian Grading Scale
-			document.body.style.backgroundImage = "url('images/asiangradingscale.jpg')";
-			document.getElementById("a").innerHTML = "hola";
-			document.getElementById("a").addEventListener("click", wrongAnswer);
-			document.getElementById("b").innerHTML = "Jackie Chan";
-			document.getElementById("b").addEventListener("click", wrongAnswer);
-			document.getElementById("c").innerHTML = "Bad Grades";
-			document.getElementById("c").addEventListener("click", wrongAnswer);
-			document.getElementById("d").innerHTML = "Asian Grading Scale";
-			document.getElementById("d").addEventListener("click", rightAnswer);
-			break;
-			case 22: //Be Like Bill
+			case 20: //Be Like Bill
 			document.body.style.backgroundImage = "url('images/be_like_bill.png')";
 			document.getElementById("a").innerHTML = "Billy";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -266,7 +246,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "CoolManDood";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 23: //Dolan
+			case 21: //Dolan
 			document.body.style.backgroundImage = "url('images/dolan.png')";
 			document.getElementById("a").innerHTML = "beaky";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -277,7 +257,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Dolan";
 			document.getElementById("d").addEventListener("click", rightAnswer);
 			break;
-			case 24: //Ken Bone
+			case 22: //Ken Bone
 			document.body.style.backgroundImage = "url('images/ken_bone.jpg')";
 			document.getElementById("a").innerHTML = "ken bone";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -288,7 +268,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "bad luck brian";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 25: //Pepe the Frog
+			case 23: //Pepe the Frog
 			document.body.style.backgroundImage = "url('images/pepe_the_frog.jpg')";
 			document.getElementById("a").innerHTML = "kermit";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -299,7 +279,8 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "creepy stalker";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 26: //Me Gusta
+
+			case 24: //Me Gusta
 			document.body.style.backgroundImage = "url('images/me_gusta.jpg')";
 			document.getElementById("a").innerHTML = "Potato Head";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -310,7 +291,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Me Gusta";
 			document.getElementById("d").addEventListener("click", rightAnswer);
 			break;
-			case 27: //Bern it Bernie
+			case 25: //Bern it Bernie
 			document.body.style.backgroundImage = "url('images/berniesanders.jpg')";
 			document.getElementById("a").innerHTML = "Bern it Bernie";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -321,7 +302,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Me Gusta";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 28: //Billy Mays
+			case 26: //Billy Mays
 			document.body.style.backgroundImage = "url('images/billy_mays.jpg')";
 			document.getElementById("a").innerHTML = "#videogames";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -332,7 +313,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Jimmy Vranic";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 29: //Philosoraptor
+			case 27: //Philosoraptor
 			document.body.style.backgroundImage = "url('images/philosoraptor.jpg')";
 			document.getElementById("a").innerHTML = "philosoraptor";
 			document.getElementById("a").addEventListener("click", rightAnswer);
@@ -343,7 +324,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "training raptors";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-			case 30: //Prison Mike
+			case 28: //Prison Mike
 			document.body.style.backgroundImage = "url('images/prisonmike.png')";
 			document.getElementById("a").innerHTML = "In the clink";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
@@ -354,26 +335,99 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "meetings with michael";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
+				case 29: //Ten Guy
+			document.body.style.backgroundImage = "url('images/ten_guy.png')";
+			document.getElementById("a").innerHTML = "salad-nacho comparison";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "#iceberg lettuce";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "why i like slads";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "ten guy";
+			document.getElementById("d").addEventListener("click", rightAnswer);
+			break;
+					case 30: //Scumbag Steve
+			document.body.style.backgroundImage = "url('images/scumbag_steve.jpg')";
+			document.getElementById("a").innerHTML = "First Impressions";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "First Date";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Scumbag Steve";
+			document.getElementById("c").addEventListener("click", rightAnswer);
+			document.getElementById("d").innerHTML = "Pure Savage";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+					case 31: //Crasher Squirrel
+			document.body.style.backgroundImage = "url('images/Crasher_squirrel.jpg')";
+			document.getElementById("a").innerHTML = "Crasher Squirel";
+			document.getElementById("a").addEventListener("click", rightAnswer);
+			document.getElementById("b").innerHTML = "Too cute to blame";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Photobomb";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Funny squirrel";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+					case 32: //Robbie Rotten
+			document.body.style.backgroundImage = "url('images/robbie_rotten.png')";
+			document.getElementById("a").innerHTML = "We are #1 ¸";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Everything is MIIIIINE";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Robbie Rotten";
+			document.getElementById("c").addEventListener("click", rightAnswer);
+			document.getElementById("d").innerHTML = "Lazy Town";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+					case 33: //Sucess Kid
+			document.body.style.backgroundImage = "url('images/sucess_kid.jpg')";
+			document.getElementById("a").innerHTML = "Pokemon go";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "Sucess Kid";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "Funny baby";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "Me Everyday";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+					case 34: //
+			document.body.style.backgroundImage = "url('images/')";
+			document.getElementById("a").innerHTML = "";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
+					case 35: //
+			document.body.style.backgroundImage = "url('images/')";
+			document.getElementById("a").innerHTML = "";
+			document.getElementById("a").addEventListener("click", wrongAnswer);
+			document.getElementById("b").innerHTML = "";
+			document.getElementById("b").addEventListener("click", rightAnswer);
+			document.getElementById("c").innerHTML = "";
+			document.getElementById("c").addEventListener("click", wrongAnswer);
+			document.getElementById("d").innerHTML = "";
+			document.getElementById("d").addEventListener("click", wrongAnswer);
+			break;
 	} // end switch
 } // end changeMeme()
 
 
 function wrongAnswer(){
-	 alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
-	 // subtract from score
-	 
-	 // load a new meme
-	 changeMeme();
+	score=0;
+	document.getElementById("score").value=score;	
+	alert("You are so trash! I can't believe you could get that wrong. You are an absolute donkey");
+	changeMeme();	 
 }
 
 function rightAnswer(){
 	changeMeme(); 
 	alert ("Aye, that's pretty smexy. Your name is now the meme king");
-	var score=0;
-	document.getElementById("score").value=score;
 	score++;
-	alert (typeof(score));
-	
+	document.getElementById("score").value=score;	
 }
 
 
