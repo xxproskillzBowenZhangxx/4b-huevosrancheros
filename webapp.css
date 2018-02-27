@@ -120,7 +120,12 @@ position: absolute;
 	width: 200px;	
 	height:100px;
 	background-color: #1F2899;
-	border:#004FA6, thick;
+	border: #005CBE, thick;
 	border-radius: 40px;
+}
+#scoretilebox {
+	position:absolute;
+	right: 5%;
+	top: 0%;
 }
 
