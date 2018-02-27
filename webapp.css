@@ -42,14 +42,13 @@ position: absolute;
 }
 
 #highscore {
-	position:absolute; 
-	top: 75%; 
-	text-align:center; 
-	left:42.5%;
+	position: absolute;
+	top: 75%;
+	text-align: center;
+	left: 669px;
 	background-color: #007ADA;
-	border:solid;
-	border-radius: 30px;
-	
+	border: solid;
+	border-radius: 30px;	
 }
 
 #choices {
@@ -123,4 +122,3 @@ position: absolute;
 	border:#004FA6, thick;
 	border-radius: 40px;
 }
-
