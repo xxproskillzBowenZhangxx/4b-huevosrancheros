@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-    color: #001EFF;
+    color: #74FF2C;
 	background-repeat: no-repeat;
     background-size: cover;
 	background-color: rgba(0,0,0,1.00);
@@ -58,7 +58,7 @@ position: absolute;
 	left: 5%;
 	width: 200px;
 	height: 400px;
-	background-color: #1F2899;
+	background-color: #C72323;
 	border: double;
 	border-radius: 17px;
 }
@@ -70,7 +70,7 @@ position: absolute;
 	right:5%; 
 	width: 200px;
 	height:400px;
-	background-color: #1F2899;
+	background-color: #C72323;
 	border: double;
 	border-radius: 17px;
 	
@@ -102,12 +102,11 @@ position: absolute;
 }
 
 #Easy {
-	
-position: absolute;
-	top: 20%;
-	text-align: center; 
-	left: 0%; 
-	width: 200px;	
+	position: absolute;
+	top: 84px;
+	text-align: center;
+	left: 0%;
+	width: 200px;
 }
 
 #score {
@@ -128,5 +127,3 @@ position: absolute;
 	right: 5%;
 	top: 0%;
 }
-
-
